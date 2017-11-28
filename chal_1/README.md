@@ -2,6 +2,8 @@
 
 Just an entry level CTF-like game where contestants have to toy around some stegano, baby SQLi and basic password cracking.
 
+![Image presented to contestants](https://github.com/aiglebleu/CoffeeCTF/blob/master/chal_1/image/coffee.jpg)
+
 ## www
 Vulnerable php application.
 
