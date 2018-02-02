@@ -2,6 +2,7 @@ version: "3"
 services:
     
     chal_1:
+        image: "php:apache"
         build: "chal_1"
         ports:
             - "2050:80"
@@ -9,6 +10,7 @@ services:
             - ./chal_1/www:/var/www/html
 
     chal_2:
+        image: "php:apache"
         build: "chal_2"
         ports:
             - "2048:80"
