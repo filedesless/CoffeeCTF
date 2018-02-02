@@ -1,0 +1,16 @@
+version: "3"
+services:
+    
+    chal_1:
+        build: "chal_1"
+        ports:
+            - "2050:80"
+        volumes:
+            - ./chal_1/www:/var/www/html
+
+    chal_2:
+        build: "chal_2"
+        ports:
+            - "2048:80"
+        volumes:
+            - ./chal_2/www:/var/www/html

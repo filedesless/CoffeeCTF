@@ -1,12 +1,11 @@
 # CoffeeCTF
+
 little challenges for the cfi
 
+requires docker and docker-compose
+
 currently build with
+
 ```
-cd chal_1
-docker build -t chal_1 .
-docker run -p 2050:80 chal_1
-cd ../chal_2
-docker build -t chal_2 .
-docker run -p 2048:80 chal_2
+filedesless@AirBook:~/src/CoffeeCTF $ docker-compose up
 ```
